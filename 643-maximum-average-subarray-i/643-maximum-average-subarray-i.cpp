@@ -1,7 +1,7 @@
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
-        double kk=(double)k;
+        // double kk=(double)k;
         double sum=0,res=INT_MIN;
         for(int i=0;i<nums.size();i++){
             if(i<k){
@@ -13,6 +13,6 @@ public:
             }
         }
       res = max(sum,res);
-    return res/kk;
+    return res/k;
     }
 };
