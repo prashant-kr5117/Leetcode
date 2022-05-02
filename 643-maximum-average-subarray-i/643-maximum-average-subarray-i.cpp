@@ -9,7 +9,7 @@ public:
                 sum+=nums[i]-nums[i-k];
             }
         }
-      res = max(sum,res);
-    return res/k;
+    return max(sum,res)/k;
+    // return res/k;
     }
 };
