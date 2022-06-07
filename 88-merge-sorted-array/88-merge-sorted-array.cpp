@@ -5,19 +5,15 @@ public:
         int i=0;
         vector<int> brr;
         while(i<m && j<n){
-            if(nums1[i]<nums2[j]){
+            if(nums1[i]<=nums2[j]){
                 brr.push_back(nums1[i]);
-                    i++;
+                i++;
             }
-            else if(nums1[i]>nums2[j]){
+            else{
                 brr.push_back(nums2[j]);
                 j++;
             }
-            else{
-                 brr.push_back(nums1[i]);          
-                i++;
-                
-            }
+           
         }
         while(i<m){
              brr.push_back(nums1[i]);
