@@ -7,6 +7,7 @@ public:
                 if(nums[i]+nums[j]==target){
                    a=i;
                     b=j;
+                    break;
                 }
             }
         }
