@@ -9,7 +9,7 @@ public:
             if(fast == slow ) break;
         }
       
-        if(!fast || !fast->next) return NULL;
+        if(!fast ||  !fast->next) return NULL;
         while(initial!=slow ){
             initial=initial->next;
             slow=slow->next;
