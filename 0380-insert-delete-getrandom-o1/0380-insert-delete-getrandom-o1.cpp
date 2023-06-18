@@ -33,24 +33,5 @@ class RandomizedSet {
           int randomIndex = rand() % values.size();
         return values[randomIndex];
     }
-//     bool remove(int val) {   
-//         if(mp.count(val))
-//         { int idx = mp[val];               
-//             int last_val = arr.back();
-//             arr[idx] = last_val;                     
-//             arr.pop_back();
-//             mp[last_val] = idx;         
-//             mp.erase(val);
-//             return true;
-//         }
-        
-//         return false;
-//     }
-    
-//     int getRandom() {
-                
-//         int rand_idx = rand() % arr.size();
-        
-//         return arr[rand_idx];
-//     }
+
 };
